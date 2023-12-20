@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Manrope&family=Mulish:wght@500&family=Nosifer&family=Noto+Sans:wght@300&family=Nunito+Sans:wght@500&family=Poppins:wght@500&family=Roboto&family=Work+Sans&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+body{ 
+    font:0.9em 'Work Sans', sans-serif;
+    background-color:#fbf7d5; 
+}
+
+.header{
+    height:100vh;
+    width:100%; 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    flex-wrap: wrap;
+ }
+ 
+.header h1{ 
+    line-height:1.5em;
+ }
+
+ .color-switch-boxes{ 
+    display:flex;
+    gap:0.6rem;
+    padding:1.2rem;
+ }
+
+.box{ 
+    height:6rem;
+    width:6rem;
+    border:2px solid #000000;
+    cursor: pointer;
+}
+
+#grey{ 
+    background-color:#808080;
+}
+#white{ 
+    background-color:#ffffff;
+}
+#blue{ 
+    background-color:#0000ff;
+}
+#yellow{ 
+    background-color:#ffff00;
+}
