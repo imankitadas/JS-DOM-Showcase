@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Manrope&family=Mulish:wght@500&family=Nosifer&family=Noto+Sans:wght@300&family=Nunito+Sans:wght@500&family=Pacifico&family=Poppins:wght@500&family=Roboto:wght@300;400&family=Ubuntu&display=swap');
+
+*{ 
+    padding:0;
+    margin:0;
+}
+
+body{ 
+   height:100vh; 
+   width:100%;
+   text-align:center;
+   background-color: #87af41;
+}
+
+.container{ 
+    position:relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.container h1{ 
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom:3rem;
+}
+
+.container label{ 
+    font-family: 'Manrope', sans-serif;
+}
+
+.container .para{ 
+    margin-top:1rem;
+    font:1rem 'Poppins';
+    font-weight: lighter;
+    color:floralwhite;
+}
+
+#btn{ 
+    font:1.3rem 'Poppins';
+    margin-top:1rem;
+    padding:5px 20px;
+    border-radius:12px;
+    border:2px solid black;
+    transition:2.6s;
+}
+
+#btn:hover{ 
+    background-color:#000000;
+    color:#87af41;
+    transform:scaleX(1.2);
+    cursor: pointer;
+}
+
+.details{ 
+    margin-top:3rem;
+}
+
+.details h3{ 
+    margin-bottom:0.8rem;
+    font:1.5rem 'Manrope';
+}
+
+.blue{ 
+    color:rgb(3, 3, 159);
+}
+.green{ 
+    color:rgb(2, 127, 6);
+}
+.red{ 
+    color:red;
+}
+
+.para{ 
+    margin-bottom:1rem;
+}
