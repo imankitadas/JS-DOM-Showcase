@@ -1,14 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
 ## DOM PROJECTS -
 
 ### Project 01 
