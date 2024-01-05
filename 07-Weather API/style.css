@@ -1,0 +1,73 @@
+*{ 
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{ 
+    height:100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./bgimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{ 
+   width:500px;
+   /* border:2px solid #ffffff; */
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   /* background-color: #f2bbae; */
+}
+
+.header h1{ 
+    margin:10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+::placeholder{ 
+    font-size:11px;
+    
+}
+
+#btn{ 
+    border: none;
+    outline:none;
+    background-color:transparent;
+    font-size:11px;
+    position:relative;
+    right:45px;
+}
+
+#btn:hover{ 
+    cursor:pointer;
+}
+
+.cityWeatherData{ 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+    padding:1rem;
+}
+
+.countryDetails{ 
+    display:flex;
+    flex-direction:row;
+    gap:30px;
+}
+
+.weatherDetails{ 
+    display:flex;
+    flex-direction:row;
+    gap:30px;
+}
+
+
+
+

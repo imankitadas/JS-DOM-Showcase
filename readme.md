@@ -16,3 +16,8 @@
 ### Project 05 
  Unlimited Colors - [folder Link](https://github.com/imankitadas/JS-DOM-Showcase/tree/main/05-Unlimited%20Colors)
  
+### Project 06
+ Bulb Automation - [folder Link](https://github.com/imankitadas/JS-DOM-Showcase/tree/main/06-Bulb%20Automation) 
+
+### Project 07
+ Weather API -   
