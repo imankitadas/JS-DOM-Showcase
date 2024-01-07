@@ -20,4 +20,5 @@
  Bulb Automation - [folder Link](https://github.com/imankitadas/JS-DOM-Showcase/tree/main/06-Bulb%20Automation) 
 
 ### Project 07
- Weather API -   
+ Weather API - [folder Link](https://github.com/imankitadas/JS-DOM-Showcase/tree/main/07-Weather%20API) 
+
