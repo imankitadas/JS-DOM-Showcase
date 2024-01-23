@@ -25,8 +25,8 @@ const getData = async (event) =>{
         alert("Please Enter The City Name: ")
         return;
     }
-
-const city = searchbox.value;
+     
+     const city = searchbox.value;
      
     // Fetch Details
     

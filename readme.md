@@ -12,7 +12,6 @@
 ### Project 04 
  Keyboard Check - [Folder Link](https://github.com/imankitadas/JS-DOM-Showcase/tree/main/05-Keyboard%20Check)   
 
-
 ### Project 05 
  Unlimited Colors - [folder Link](https://github.com/imankitadas/JS-DOM-Showcase/tree/main/05-Unlimited%20Colors)
  
