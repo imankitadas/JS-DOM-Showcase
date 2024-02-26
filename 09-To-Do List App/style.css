@@ -1,0 +1,91 @@
+*{ 
+   margin: 0; 
+   padding:0;
+   box-sizing:border-box;
+}
+
+main{ 
+    height:100vh;
+    width:100%;
+    background-color:#7a863a;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.box{ 
+  height:500px;
+  width:400px;
+  background-color:#b2b56a;
+  border-radius:55px;
+}
+
+.box h1{ 
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size:1.8rem;
+  padding:20px;
+  color:#ffffff;
+  text-align: center;
+}
+
+.inputbox{ 
+  display:flex;
+  justify-content: center;
+  gap:10px;
+}
+
+#taskinput{ 
+  width:70%;
+  padding:10px;
+  outline: none;
+  border:transparent;
+  background-color:transparent;
+  font-weight:bold;
+  font-size:15px;
+  box-shadow:0px 0px 2px #ffffff;
+  border-radius:20px;
+}
+
+::placeholder{ 
+  color:#222121;
+  font-family: "Roboto", sans-serif;
+}
+
+#addbtn{ 
+  padding:8px;
+  cursor: pointer;
+  color:#ffffff;
+  background-color:#7a863a;
+  box-shadow:0px 0px 2px #ffffff;
+  border:transparent;
+  border-radius:20px;
+}
+
+#addbtn:hover{ 
+  background-color:transparent;
+  color:#000000;
+}
+
+.to-do-task{ 
+  margin:20px;
+}
+
+.to-do-task ul{ 
+  list-style-type: none;
+  background-color:#7a863a;
+  color:#ffffff;
+  padding:8px;
+  font:15px "Roboto", sans-serif;
+  border-radius:12px;
+  border:1px solid #d0d0d0;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.to-do-task ul i{ 
+   position:absolute;
+   right:10px;
+   cursor:pointer;
+}
