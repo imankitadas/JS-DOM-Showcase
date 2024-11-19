@@ -16,8 +16,6 @@ body{
     background-color:#F97272;
     width: 100%;
     padding:10px;
-    /* list-style: none; */
-    /* display: flex; */
 }
 
 #navItem{
@@ -145,6 +143,12 @@ p{
     border: none;
 }
 
+#btn:hover{ 
+    background-color:#fcedb7;
+    color:#f16e6ed9;
+    border:1px solid #f16e6ed9;
+}
+
 #lorembox2{
     background-color: rgba(248, 101, 101, 0.856);
     color: black;
@@ -177,18 +181,34 @@ h5{
     left:8px;
 }
 
+#menuIcon1{
+    display:none; 
+    height: 1.5rem;
+    width:1.5rem;
+    position:absolute;
+    right:5%;
+    top:15px;
+}
+
 @media only screen and (max-width: 768px) {
-    #navItem {
-      display: none;
-    }
-  
-    #menuIcon1 {
-      display: block; 
-      height: 1.5rem;
-      width:1.5rem;
-     
+    /* #navbar{
+        height:3rem;
+    } */
+
+    #navItem{
+      flex-direction:column;
+      gap:2rem;
+      align-items: center;
     }
 
+    #menuIcon{ 
+        display: none;
+    }
+    
+    #menuIcon1{ 
+        display:block;
+    }
+    
     #mainBox{
       flex-direction: column;
       flex-wrap: wrap;
@@ -197,18 +217,12 @@ h5{
     }
 
     #loremBox1{
-     height: 100vh;
-     display:  flex;
-     flex-direction: column;
-     align-items: center;
-     gap:5rem;
-     padding-left:5.2rem;
-     /* width:80vw; */
-     /* margin: 40px; */
-     /* justify-content: space-around; */
+      margin-top:3rem;  
+      align-items: center;
     }
 
     #mainImage{
+      margin-top:5rem;
       height: 80vh;
       width: 80vw;
     }
@@ -227,5 +241,110 @@ h5{
      flex-direction: column;
      justify-content: space-around;
      padding: 20px;
+   }
+   
+   #item{
+    margin-top:8rem;
+    padding-bottom: 10rem;
+   }
+
+   #image1{
+    height:22vh;
+    width: 18.5vw;
+    background-image:url(./pexels-rachel-claire-6752433.jpg);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: cover;
+    margin: 6px;
+  }
+ 
+  #image2{
+     height:22vh;
+     width: 18.5vw;
+     background-image:url(./pexels-eva-bronzini-6141651.jpg);
+     background-repeat: no-repeat;
+     background-position:right;
+     background-size: cover;
+     margin: 6px; 
+  }
+ 
+  #image3{
+     height:45vh;
+     width: 18.5vw;
+     background-image:url(./pexels-mister-mister-3434523.jpg);
+     background-repeat: no-repeat;
+     background-position:right;
+     background-size: cover;
+     margin: 5px; 
+  }
+ 
+  #incolum{
+     display: flex;
+     flex-direction: column;
+     margin: 14px
+  }
+
+  .h-nav-resp{ 
+    height:3rem;
+  }
+
+  .v-class{ 
+    opacity:0;
+  }
 }
+
+@media only screen and (max-width:1140px) and (min-width:768px){ 
+    #navbar{
+        padding:8px;
+    }
+    
+    #navItem{
+       gap:2rem;
+       align-items:center;
+    }
+    
+    #navItem li{ 
+        font:16px  'PT Serif', serif;
+    }
+
+    #menuIcon{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    
+    #mainBox{
+        width: 100%;
+        display: flex; 
+        justify-content:center; 
+        flex-wrap: wrap;
+    }
+     
+    #loremBox1{
+      margin-top:3rem; 
+      align-items: center;
+    }
+  
+    #mainImage{
+        margin-top:5rem;
+        height: 80vh;
+        width: 80vw;
+    }
+     
+    #lorembox2 {
+        background-color: rgba(235, 92, 92, 0.856);
+        color: black;
+        height: 19rem;
+        width: 32rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+      }
+      
+      #item{
+       margin-top:8rem;
+       padding-bottom: 10rem;
+      }
+  
 }
+

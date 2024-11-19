@@ -29,16 +29,3 @@ document.getElementById("start").addEventListener("click",startchanging);
 document.getElementById("stop").addEventListener("click",stopchanging);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
